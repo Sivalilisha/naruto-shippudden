@@ -1,0 +1,114 @@
+body{
+    font-size: 20px;
+    text-align: justify;
+    transition: background-color 0.3s, color 0.3s;
+}
+body.light-mode{
+    background-color: white;
+    color: black;
+}
+body.dark-mode{
+    background-color: black;
+    color: white;
+}
+button{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right:10px;
+}
+.center{
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    font-family: Roboto slap, serif;
+    color: orange;
+}
+h3{
+    font-size: 40px;
+    font-family: Montserrat, sans-serif;
+    color: crimson;
+}
+h5{
+    font-size: 30px;
+    font-family: open sans, sans-serif;
+    color: yellowgreen;
+}
+h6{
+    font-family: lora, serif;
+    font-size: 30px;
+    color: violet;
+}
+p{
+    font-family: nunito, sans-serif;
+}
+header{
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+img{
+    width:300px;
+    height: 200px;
+    text-align: center;
+}
+img.right{
+    width: 300px;
+    height:200px;
+    float:left;
+}
+img.left{
+    width: 300px;
+    height: 200px;
+    float:right;
+}
+.second{
+    clear: left;
+}
+.third{
+    clear: right;
+}
+#village{
+    color: teal;
+}
+#naruto{
+    color: coral;
+}
+#sasuke{
+    color: blue;
+}
+#sakura{
+    color: magenta;
+}
+#kakashi{
+    color: skyblue;
+}
+.asuma{
+    color: teal;
+}
+.kurenai{
+    color: cyan;
+}
+.guy{
+    color: green;
+}
+.hokage{
+    color: gold;
+}
+.orochimaru{
+    color: turquoise;
+}
+.akatsuki{
+    color: red;
+}
+.jinchuriki{
+    color: purple;
+}
+.war{
+    color: limegreen;
+}
